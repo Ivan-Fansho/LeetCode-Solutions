@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#_solutions", "C#_solutions", "{79DFDE6B-9C26-46B5-B7A1-B32F94FF657A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#_solutions", "C#_solutions", "{F525D6C0-4D7B-49E0-AE3D-C49427387012}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leetcode75", "Leetcode75", "{60AC5F88-2A7B-4F59-8EF0-3B20722B93FB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Top_interview_150", "Top_interview_150", "{0E6AF17B-BC21-47CC-AEB6-F910394A5A73}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array_string", "array_string", "{61F4574A-09B7-4939-BCD6-28E24C4EA129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "merge_2_lists", "C#_solutions\Top_interview_150\merge_2_lists\merge_2_lists.csproj", "{67AD13D1-4449-454D-B766-F937CE0CCCC7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reverce_word_in_a_string", "C#_solutions\Leetcode75\array_string\reverce_word_in_a_string\reverce_word_in_a_string.csproj", "{24354E74-9650-4DAA-93E5-66B856CCA21A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leetcode75", "Leetcode75", "{F94E9348-0FA9-424D-B024-F8A1F87A9044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array_string", "array_string", "{C937E2E0-CCA0-449D-82F9-A0337F0813AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reverce_word_in_a_string", "C#_solutions\Leetcode75\array_string\reverce_word_in_a_string\reverce_word_in_a_string.csproj", "{0F812E8C-06C8-4494-907A-1FEFCF3337DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reverse_vowels_of_string", "C#_solutions\Leetcode75\array_string\reverse_vowels_of_string\reverse_vowels_of_string.csproj", "{858EA9FC-6878-4440-8233-15F57DA05D21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hashmap_set", "hashmap_set", "{80BEB809-23EC-4BEC-861B-6500DACD8A0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "find_the_difference_of_two_arrays", "C#_solutions\Leetcode75\hashmap_set\find_the_difference_of_two_arrays\find_the_difference_of_two_arrays.csproj", "{8C824178-BAE7-4116-98F4-44A6A815E05C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,18 +27,35 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{24354E74-9650-4DAA-93E5-66B856CCA21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24354E74-9650-4DAA-93E5-66B856CCA21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24354E74-9650-4DAA-93E5-66B856CCA21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24354E74-9650-4DAA-93E5-66B856CCA21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AD13D1-4449-454D-B766-F937CE0CCCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AD13D1-4449-454D-B766-F937CE0CCCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AD13D1-4449-454D-B766-F937CE0CCCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AD13D1-4449-454D-B766-F937CE0CCCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F812E8C-06C8-4494-907A-1FEFCF3337DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F812E8C-06C8-4494-907A-1FEFCF3337DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F812E8C-06C8-4494-907A-1FEFCF3337DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F812E8C-06C8-4494-907A-1FEFCF3337DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858EA9FC-6878-4440-8233-15F57DA05D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858EA9FC-6878-4440-8233-15F57DA05D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858EA9FC-6878-4440-8233-15F57DA05D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858EA9FC-6878-4440-8233-15F57DA05D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C824178-BAE7-4116-98F4-44A6A815E05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C824178-BAE7-4116-98F4-44A6A815E05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C824178-BAE7-4116-98F4-44A6A815E05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C824178-BAE7-4116-98F4-44A6A815E05C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{60AC5F88-2A7B-4F59-8EF0-3B20722B93FB} = {79DFDE6B-9C26-46B5-B7A1-B32F94FF657A}
-		{61F4574A-09B7-4939-BCD6-28E24C4EA129} = {60AC5F88-2A7B-4F59-8EF0-3B20722B93FB}
-		{24354E74-9650-4DAA-93E5-66B856CCA21A} = {61F4574A-09B7-4939-BCD6-28E24C4EA129}
+		{0E6AF17B-BC21-47CC-AEB6-F910394A5A73} = {F525D6C0-4D7B-49E0-AE3D-C49427387012}
+		{67AD13D1-4449-454D-B766-F937CE0CCCC7} = {0E6AF17B-BC21-47CC-AEB6-F910394A5A73}
+		{F94E9348-0FA9-424D-B024-F8A1F87A9044} = {F525D6C0-4D7B-49E0-AE3D-C49427387012}
+		{C937E2E0-CCA0-449D-82F9-A0337F0813AF} = {F94E9348-0FA9-424D-B024-F8A1F87A9044}
+		{0F812E8C-06C8-4494-907A-1FEFCF3337DE} = {C937E2E0-CCA0-449D-82F9-A0337F0813AF}
+		{858EA9FC-6878-4440-8233-15F57DA05D21} = {C937E2E0-CCA0-449D-82F9-A0337F0813AF}
+		{80BEB809-23EC-4BEC-861B-6500DACD8A0B} = {F94E9348-0FA9-424D-B024-F8A1F87A9044}
+		{8C824178-BAE7-4116-98F4-44A6A815E05C} = {80BEB809-23EC-4BEC-861B-6500DACD8A0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1961DB0-EA7D-408E-B94D-C49CD05F36D5}
